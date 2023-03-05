@@ -1,0 +1,23 @@
+{
+  "class" : "Behaviour",
+  "entries":[
+    {
+      "name" : "enabled",
+      "type" : "field",
+      "return_type" : {
+	"type" : "val",
+	"name" : "bool"
+      },
+      "setter" : true
+    },
+    {
+      "name" : "isActiveAndEnabled",
+      "type" : "field",
+      "return_type" : {
+	"type" : "val",
+	"name" : "bool"
+      },
+      "setter" : false
+    }
+  ]
+}

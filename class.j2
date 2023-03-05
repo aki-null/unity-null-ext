@@ -1,0 +1,77 @@
+using UnityEngine;
+using System.Collections.Generic;
+
+namespace UnityNull
+{
+    public static class UnityNull{{ class }}
+    {
+        public static {{ class }} Or(this {{ class }} self)
+        {
+            if (self == null) return null;
+            return self;
+        }
+{%- for entry in entries %}
+  {%- if entry.type == "field" %}
+    {% if entry.return_type.type == "obj" %}
+        public static {{ entry.return_type.name }} Or{{ entry.name|cap }}(this {{ class }} self)
+    {%- endif %}
+    {%- if entry.return_type.type == "val" %}
+        public static {{ entry.return_type.name }}? Or{{ entry.name|cap }}(this {{ class }} self)
+    {%- endif %}
+        {
+            if (self == null) return null;
+            return self.{{ entry.name }};
+        }
+    {%- if entry.setter %}
+      {% if entry.return_type.type == "obj" %}
+        public static void OrSet{{ entry.name|cap }}(this {{ class }} self, {{ entry.return_type.name }} val)
+      {%- endif %}
+      {%- if entry.return_type.type == "val" %}
+        public static void OrSet{{ entry.name|cap }}(this {{ class }} self, {{ entry.return_type.name }}? val)
+      {%- endif %}
+        {
+            if (self == null) return;
+      {%- if entry.return_type.type == "val" %}
+            if (val == null) return;
+            self.{{ entry.name }} = val.Value;
+      {%- else %}
+            self.{{ entry.name }} = val;
+      {%- endif %}
+        }
+    {%- endif %}
+  {%- endif %}
+  {%- if entry.type == "method" %}
+
+        public static {{ entry|methodReturnType }} Or{{ entry.name|cap }}(this {{ class }} self
+    {%- for param in entry.params|default([]) -%}
+      , {%- if param.mod|default(none) is not none %} {{ param.mod }} {%- endif %} {{ param.type }} {{param.name-}}
+      {%- if param.def|default(none) is not none %} = {{ param.def }} {%- endif %}
+    {%- endfor -%}
+  ) {%- if entry|isGeneric %} where T : {% if entry.type_constraint|default(none) is none %}class{% else %}{{ entry.type_constraint }}{% endif %} {%endif %}
+        {
+        {%- for param in entry.params|default([]) -%}
+          {% if param.mod|default(none) == "out" %}
+            {{ param.name }} = default;
+        {% endif %}
+        {%- endfor %}
+            if (self == null) {% if entry.return_type.type == "void" -%}
+                return;
+            {%- elif entry.return_type.boolShortCircuit|default(false) -%}
+                return false;
+            {%- else -%}
+                return null;
+            {%- endif %}
+            {% if entry.return_type.type == "void" -%}
+            self.{{ entry.name }}(
+            {%- else -%}
+            return self.{{ entry.name }}(
+            {%- endif %}
+    {%- for param in entry.params|default([]) -%}
+      {%- if param.mod|default(none) is not none %}{{ param.mod }} {% endif %}{{param.name}}{% if not loop.last %}, {% endif -%}
+    {%- endfor -%}
+            );
+        }
+  {%- endif %}
+{%- endfor %}
+    }
+}
