@@ -1,23 +1,23 @@
 {
-  "class" : "Behaviour",
-  "entries":[
+  "class": "Behaviour",
+  "entries": [
     {
-      "name" : "enabled",
-      "type" : "field",
-      "return_type" : {
-	"type" : "val",
-	"name" : "bool"
+      "name": "enabled",
+      "type": "field",
+      "return_type": {
+        "type": "val",
+        "name": "bool"
       },
-      "setter" : true
+      "setter": true
     },
     {
-      "name" : "isActiveAndEnabled",
-      "type" : "field",
-      "return_type" : {
-	"type" : "val",
-	"name" : "bool"
+      "name": "isActiveAndEnabled",
+      "type": "field",
+      "return_type": {
+        "type": "val",
+        "name": "bool"
       },
-      "setter" : false
+      "setter": false
     }
   ]
 }

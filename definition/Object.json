@@ -1,38 +1,38 @@
 {
-  "class" : "Object",
-  "entries":[
+  "class": "Object",
+  "entries": [
     {
-      "name" : "hideFlags",
-      "type" : "field",
-      "return_type" : {
-	"type" : "val",
-	"name" : "HideFlags"
+      "name": "hideFlags",
+      "type": "field",
+      "return_type": {
+        "type": "val",
+        "name": "HideFlags"
       },
-      "setter" : true
+      "setter": true
     },
     {
-      "name" : "name",
-      "type" : "field",
-      "return_type" : {
-	"type" : "obj",
-	"name" : "string"
+      "name": "name",
+      "type": "field",
+      "return_type": {
+        "type": "obj",
+        "name": "string"
       },
-      "setter" : true
+      "setter": true
     },
     {
-      "name" : "GetInstanceID",
-      "type" : "method",
-      "return_type" : {
-	"type" : "val",
-	"name" : "int"
+      "name": "GetInstanceID",
+      "type": "method",
+      "return_type": {
+        "type": "val",
+        "name": "int"
       }
     },
     {
-      "name" : "ToString",
-      "type" : "method",
-      "return_type" : {
-	"type" : "obj",
-	"name" : "string"
+      "name": "ToString",
+      "type": "method",
+      "return_type": {
+        "type": "obj",
+        "name": "string"
       }
     }
   ]

@@ -1,802 +1,802 @@
 {
-  "class" : "Transform",
-  "entries":[
+  "class": "Transform",
+  "entries": [
     {
-      "name" : "childCount",
-      "type" : "field",
-      "return_type" : {
-	"type" : "val",
-	"name" : "int"
+      "name": "childCount",
+      "type": "field",
+      "return_type": {
+        "type": "val",
+        "name": "int"
       },
-      "setter" : false
+      "setter": false
     },
     {
-      "name" : "eulerAngles",
-      "type" : "field",
-      "return_type" : {
-	"type" : "val",
-	"name" : "Vector3"
+      "name": "eulerAngles",
+      "type": "field",
+      "return_type": {
+        "type": "val",
+        "name": "Vector3"
       },
-      "setter" : true
+      "setter": true
     },
     {
-      "name" : "forward",
-      "type" : "field",
-      "return_type" : {
-	"type" : "val",
-	"name" : "Vector3"
+      "name": "forward",
+      "type": "field",
+      "return_type": {
+        "type": "val",
+        "name": "Vector3"
       },
-      "setter" : true
+      "setter": true
     },
     {
-      "name" : "hasChanged",
-      "type" : "field",
-      "return_type" : {
-	"type" : "val",
-	"name" : "bool"
+      "name": "hasChanged",
+      "type": "field",
+      "return_type": {
+        "type": "val",
+        "name": "bool"
       },
-      "setter" : true
+      "setter": true
     },
     {
-      "name" : "hierarchyCapacity",
-      "type" : "field",
-      "return_type" : {
-	"type" : "val",
-	"name" : "int"
+      "name": "hierarchyCapacity",
+      "type": "field",
+      "return_type": {
+        "type": "val",
+        "name": "int"
       },
-      "setter" : true
+      "setter": true
     },
     {
-      "name" : "hierarchyCount",
-      "type" : "field",
-      "return_type" : {
-	"type" : "val",
-	"name" : "int"
+      "name": "hierarchyCount",
+      "type": "field",
+      "return_type": {
+        "type": "val",
+        "name": "int"
       },
-      "setter" : false
+      "setter": false
     },
     {
-      "name" : "localEulerAngles",
-      "type" : "field",
-      "return_type" : {
-	"type" : "val",
-	"name" : "Vector3"
+      "name": "localEulerAngles",
+      "type": "field",
+      "return_type": {
+        "type": "val",
+        "name": "Vector3"
       },
-      "setter" : true
+      "setter": true
     },
     {
-      "name" : "localPosition",
-      "type" : "field",
-      "return_type" : {
-	"type" : "val",
-	"name" : "Vector3"
+      "name": "localPosition",
+      "type": "field",
+      "return_type": {
+        "type": "val",
+        "name": "Vector3"
       },
-      "setter" : true
+      "setter": true
     },
     {
-      "name" : "localRotation",
-      "type" : "field",
-      "return_type" : {
-	"type" : "val",
-	"name" : "Quaternion"
+      "name": "localRotation",
+      "type": "field",
+      "return_type": {
+        "type": "val",
+        "name": "Quaternion"
       },
-      "setter" : true
+      "setter": true
     },
     {
-      "name" : "localScale",
-      "type" : "field",
-      "return_type" : {
-	"type" : "val",
-	"name" : "Vector3"
+      "name": "localScale",
+      "type": "field",
+      "return_type": {
+        "type": "val",
+        "name": "Vector3"
       },
-      "setter" : true
+      "setter": true
     },
     {
-      "name" : "localToWorldMatrix",
-      "type" : "field",
-      "return_type" : {
-	"type" : "val",
-	"name" : "Matrix4x4"
+      "name": "localToWorldMatrix",
+      "type": "field",
+      "return_type": {
+        "type": "val",
+        "name": "Matrix4x4"
       },
-      "setter" : false
+      "setter": false
     },
     {
-      "name" : "lossyScale",
-      "type" : "field",
-      "return_type" : {
-	"type" : "val",
-	"name" : "Vector3"
+      "name": "lossyScale",
+      "type": "field",
+      "return_type": {
+        "type": "val",
+        "name": "Vector3"
       },
-      "setter" : false
+      "setter": false
     },
     {
-      "name" : "parent",
-      "type" : "field",
-      "return_type" : {
-	"type" : "obj",
-	"name" : "Transform"
+      "name": "parent",
+      "type": "field",
+      "return_type": {
+        "type": "obj",
+        "name": "Transform"
       },
-      "setter" : true
+      "setter": true
     },
     {
-      "name" : "position",
-      "type" : "field",
-      "return_type" : {
-	"type" : "val",
-	"name" : "Vector3"
+      "name": "position",
+      "type": "field",
+      "return_type": {
+        "type": "val",
+        "name": "Vector3"
       },
-      "setter" : true
+      "setter": true
     },
     {
-      "name" : "right",
-      "type" : "field",
-      "return_type" : {
-	"type" : "val",
-	"name" : "Vector3"
+      "name": "right",
+      "type": "field",
+      "return_type": {
+        "type": "val",
+        "name": "Vector3"
       },
-      "setter" : true
+      "setter": true
     },
     {
-      "name" : "root",
-      "type" : "field",
-      "return_type" : {
-	"type" : "obj",
-	"name" : "Transform"
+      "name": "root",
+      "type": "field",
+      "return_type": {
+        "type": "obj",
+        "name": "Transform"
       },
-      "setter" : false
+      "setter": false
     },
     {
-      "name" : "rotation",
-      "type" : "field",
-      "return_type" : {
-	"type" : "val",
-	"name" : "Quaternion"
+      "name": "rotation",
+      "type": "field",
+      "return_type": {
+        "type": "val",
+        "name": "Quaternion"
       },
-      "setter" : true
+      "setter": true
     },
     {
-      "name" : "up",
-      "type" : "field",
-      "return_type" : {
-	"type" : "val",
-	"name" : "Vector3"
+      "name": "up",
+      "type": "field",
+      "return_type": {
+        "type": "val",
+        "name": "Vector3"
       },
-      "setter" : true
+      "setter": true
     },
     {
-      "name" : "worldToLocalMatrix",
-      "type" : "field",
-      "return_type" : {
-	"type" : "val",
-	"name" : "Matrix4x4"
+      "name": "worldToLocalMatrix",
+      "type": "field",
+      "return_type": {
+        "type": "val",
+        "name": "Matrix4x4"
       },
-      "setter" : false
+      "setter": false
     },
     {
-      "name" : "DetachChildren",
-      "type" : "method",
-      "return_type" : {
-	"type" : "void"
+      "name": "DetachChildren",
+      "type": "method",
+      "return_type": {
+        "type": "void"
       }
     },
     {
-      "name" : "Find",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "string",
-	  "name" : "n"
-	}
+      "name": "Find",
+      "type": "method",
+      "params": [
+        {
+          "type": "string",
+          "name": "n"
+        }
       ],
-      "return_type" : {
-	"type" : "obj",
-	"name" : "Transform"
+      "return_type": {
+        "type": "obj",
+        "name": "Transform"
       }
     },
     {
-      "name" : "GetChild",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "int",
-	  "name" : "index"
-	}
+      "name": "GetChild",
+      "type": "method",
+      "params": [
+        {
+          "type": "int",
+          "name": "index"
+        }
       ],
-      "return_type" : {
-	"type" : "obj",
-	"name" : "Transform"
+      "return_type": {
+        "type": "obj",
+        "name": "Transform"
       }
     },
     {
-      "name" : "GetLocalPositionAndRotation",
-      "type" : "method",
-      "params" : [
-	{
-	  "mod" : "out",
-	  "type" : "Vector3",
-	  "name" : "localPosition"
-	},
-	{
-	  "mod" : "out",
-	  "type" : "Quaternion",
-	  "name" : "localRotation"
-	}
+      "name": "GetLocalPositionAndRotation",
+      "type": "method",
+      "params": [
+        {
+          "mod": "out",
+          "type": "Vector3",
+          "name": "localPosition"
+        },
+        {
+          "mod": "out",
+          "type": "Quaternion",
+          "name": "localRotation"
+        }
       ],
-      "return_type" : {
-	"type" : "void"
+      "return_type": {
+        "type": "void"
       }
     },
     {
-      "name" : "GetPositionAndRotation",
-      "type" : "method",
-      "params" : [
-	{
-	  "mod" : "out",
-	  "type" : "Vector3",
-	  "name" : "position"
-	},
-	{
-	  "mod" : "out",
-	  "type" : "Quaternion",
-	  "name" : "rotation"
-	}
+      "name": "GetPositionAndRotation",
+      "type": "method",
+      "params": [
+        {
+          "mod": "out",
+          "type": "Vector3",
+          "name": "position"
+        },
+        {
+          "mod": "out",
+          "type": "Quaternion",
+          "name": "rotation"
+        }
       ],
-      "return_type" : {
-	"type" : "void"
+      "return_type": {
+        "type": "void"
       }
     },
     {
-      "name" : "GetSiblingIndex",
-      "type" : "method",
-      "return_type" : {
-	"type" : "val",
-	"name" : "int"
+      "name": "GetSiblingIndex",
+      "type": "method",
+      "return_type": {
+        "type": "val",
+        "name": "int"
       }
     },
     {
-      "name" : "InverseTransformDirection",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "Vector3",
-	  "name" : "direction"
-	}
+      "name": "InverseTransformDirection",
+      "type": "method",
+      "params": [
+        {
+          "type": "Vector3",
+          "name": "direction"
+        }
       ],
-      "return_type" : {
-	"type" : "val",
-	"name" : "Vector3"
+      "return_type": {
+        "type": "val",
+        "name": "Vector3"
       }
     },
     {
-      "name" : "InverseTransformDirection",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "float",
-	  "name" : "x"
-	},
-	{
-	  "type" : "float",
-	  "name" : "y"
-	},
-	{
-	  "type" : "float",
-	  "name" : "z"
-	}
+      "name": "InverseTransformDirection",
+      "type": "method",
+      "params": [
+        {
+          "type": "float",
+          "name": "x"
+        },
+        {
+          "type": "float",
+          "name": "y"
+        },
+        {
+          "type": "float",
+          "name": "z"
+        }
       ],
-      "return_type" : {
-	"type" : "val",
-	"name" : "Vector3"
+      "return_type": {
+        "type": "val",
+        "name": "Vector3"
       }
     },
     {
-      "name" : "InverseTransformPoint",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "Vector3",
-	  "name" : "position"
-	}
+      "name": "InverseTransformPoint",
+      "type": "method",
+      "params": [
+        {
+          "type": "Vector3",
+          "name": "position"
+        }
       ],
-      "return_type" : {
-	"type" : "val",
-	"name" : "Vector3"
+      "return_type": {
+        "type": "val",
+        "name": "Vector3"
       }
     },
     {
-      "name" : "InverseTransformPoint",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "float",
-	  "name" : "x"
-	},
-	{
-	  "type" : "float",
-	  "name" : "y"
-	},
-	{
-	  "type" : "float",
-	  "name" : "z"
-	}
+      "name": "InverseTransformPoint",
+      "type": "method",
+      "params": [
+        {
+          "type": "float",
+          "name": "x"
+        },
+        {
+          "type": "float",
+          "name": "y"
+        },
+        {
+          "type": "float",
+          "name": "z"
+        }
       ],
-      "return_type" : {
-	"type" : "val",
-	"name" : "Vector3"
+      "return_type": {
+        "type": "val",
+        "name": "Vector3"
       }
     },
     {
-      "name" : "InverseTransformVector",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "Vector3",
-	  "name" : "vector"
-	}
+      "name": "InverseTransformVector",
+      "type": "method",
+      "params": [
+        {
+          "type": "Vector3",
+          "name": "vector"
+        }
       ],
-      "return_type" : {
-	"type" : "val",
-	"name" : "Vector3"
+      "return_type": {
+        "type": "val",
+        "name": "Vector3"
       }
     },
     {
-      "name" : "InverseTransformVector",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "float",
-	  "name" : "x"
-	},
-	{
-	  "type" : "float",
-	  "name" : "y"
-	},
-	{
-	  "type" : "float",
-	  "name" : "z"
-	}
+      "name": "InverseTransformVector",
+      "type": "method",
+      "params": [
+        {
+          "type": "float",
+          "name": "x"
+        },
+        {
+          "type": "float",
+          "name": "y"
+        },
+        {
+          "type": "float",
+          "name": "z"
+        }
       ],
-      "return_type" : {
-	"type" : "val",
-	"name" : "Vector3"
+      "return_type": {
+        "type": "val",
+        "name": "Vector3"
       }
     },
     {
-      "name" : "IsChildOf",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "Transform",
-	  "name" : "parent"
-	}
+      "name": "IsChildOf",
+      "type": "method",
+      "params": [
+        {
+          "type": "Transform",
+          "name": "parent"
+        }
       ],
-      "return_type" : {
-	"type" : "val",
-	"name" : "bool",
-	"boolShortCircuit" : true
+      "return_type": {
+        "type": "val",
+        "name": "bool",
+        "boolShortCircuit": true
       }
     },
     {
-      "name" : "LookAt",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "Transform",
-	  "name" : "target"
-	}
+      "name": "LookAt",
+      "type": "method",
+      "params": [
+        {
+          "type": "Transform",
+          "name": "target"
+        }
       ],
-      "return_type" : {
-	"type" : "void"
+      "return_type": {
+        "type": "void"
       }
     },
     {
-      "name" : "LookAt",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "Transform",
-	  "name" : "target"
-	},
-	{
-	  "type" : "Vector3",
-	  "name" : "worldUp"
-	}
+      "name": "LookAt",
+      "type": "method",
+      "params": [
+        {
+          "type": "Transform",
+          "name": "target"
+        },
+        {
+          "type": "Vector3",
+          "name": "worldUp"
+        }
       ],
-      "return_type" : {
-	"type" : "void"
+      "return_type": {
+        "type": "void"
       }
     },
     {
-      "name" : "Rotate",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "Vector3",
-	  "name" : "eulers"
-	},
-	{
-	  "type" : "Space",
-	  "name" : "relativeTo"
-	}
+      "name": "Rotate",
+      "type": "method",
+      "params": [
+        {
+          "type": "Vector3",
+          "name": "eulers"
+        },
+        {
+          "type": "Space",
+          "name": "relativeTo"
+        }
       ],
-      "return_type" : {
-	"type" : "void"
+      "return_type": {
+        "type": "void"
       }
     },
     {
-      "name" : "Rotate",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "float",
-	  "name" : "xAngle"
-	},
-	{
-	  "type" : "float",
-	  "name" : "yAngle"
-	},
-	{
-	  "type" : "float",
-	  "name" : "zAngle"
-	},
-	{
-	  "type" : "Space",
-	  "name" : "relativeTo"
-	}
+      "name": "Rotate",
+      "type": "method",
+      "params": [
+        {
+          "type": "float",
+          "name": "xAngle"
+        },
+        {
+          "type": "float",
+          "name": "yAngle"
+        },
+        {
+          "type": "float",
+          "name": "zAngle"
+        },
+        {
+          "type": "Space",
+          "name": "relativeTo"
+        }
       ],
-      "return_type" : {
-	"type" : "void"
+      "return_type": {
+        "type": "void"
       }
     },
     {
-      "name" : "Rotate",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "Vector3",
-	  "name" : "axis"
-	},
-	{
-	  "type" : "float",
-	  "name" : "angle"
-	},
-	{
-	  "type" : "Space",
-	  "name" : "relativeTo"
-	}
+      "name": "Rotate",
+      "type": "method",
+      "params": [
+        {
+          "type": "Vector3",
+          "name": "axis"
+        },
+        {
+          "type": "float",
+          "name": "angle"
+        },
+        {
+          "type": "Space",
+          "name": "relativeTo"
+        }
       ],
-      "return_type" : {
-	"type" : "void"
+      "return_type": {
+        "type": "void"
       }
     },
     {
-      "name" : "Rotate",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "Vector3",
-	  "name" : "eulers"
-	}
+      "name": "Rotate",
+      "type": "method",
+      "params": [
+        {
+          "type": "Vector3",
+          "name": "eulers"
+        }
       ],
-      "return_type" : {
-	"type" : "void"
+      "return_type": {
+        "type": "void"
       }
     },
     {
-      "name" : "Rotate",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "float",
-	  "name" : "xAngle"
-	},
-	{
-	  "type" : "float",
-	  "name" : "yAngle"
-	},
-	{
-	  "type" : "float",
-	  "name" : "zAngle"
-	}
+      "name": "Rotate",
+      "type": "method",
+      "params": [
+        {
+          "type": "float",
+          "name": "xAngle"
+        },
+        {
+          "type": "float",
+          "name": "yAngle"
+        },
+        {
+          "type": "float",
+          "name": "zAngle"
+        }
       ],
-      "return_type" : {
-	"type" : "void"
+      "return_type": {
+        "type": "void"
       }
     },
     {
-      "name" : "Rotate",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "Vector3",
-	  "name" : "axis"
-	},
-	{
-	  "type" : "float",
-	  "name" : "angle"
-	}
+      "name": "Rotate",
+      "type": "method",
+      "params": [
+        {
+          "type": "Vector3",
+          "name": "axis"
+        },
+        {
+          "type": "float",
+          "name": "angle"
+        }
       ],
-      "return_type" : {
-	"type" : "void"
+      "return_type": {
+        "type": "void"
       }
     },
     {
-      "name" : "RotateAround",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "Vector3",
-	  "name" : "point"
-	},
-	{
-	  "type" : "Vector3",
-	  "name" : "axis"
-	},
-	{
-	  "type" : "float",
-	  "name" : "angle"
-	}
+      "name": "RotateAround",
+      "type": "method",
+      "params": [
+        {
+          "type": "Vector3",
+          "name": "point"
+        },
+        {
+          "type": "Vector3",
+          "name": "axis"
+        },
+        {
+          "type": "float",
+          "name": "angle"
+        }
       ],
-      "return_type" : {
-	"type" : "void"
+      "return_type": {
+        "type": "void"
       }
     },
     {
-      "name" : "SetAsFirstSibling",
-      "type" : "method",
-      "return_type" : {
-	"type" : "void"
+      "name": "SetAsFirstSibling",
+      "type": "method",
+      "return_type": {
+        "type": "void"
       }
     },
     {
-      "name" : "SetAsLastSibling",
-      "type" : "method",
-      "return_type" : {
-	"type" : "void"
+      "name": "SetAsLastSibling",
+      "type": "method",
+      "return_type": {
+        "type": "void"
       }
     },
     {
-      "name" : "SetLocalPositionAndRotation",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "Vector3",
-	  "name" : "localPosition"
-	},
-	{
-	  "type" : "Quaternion",
-	  "name" : "localRotation"
-	}
+      "name": "SetLocalPositionAndRotation",
+      "type": "method",
+      "params": [
+        {
+          "type": "Vector3",
+          "name": "localPosition"
+        },
+        {
+          "type": "Quaternion",
+          "name": "localRotation"
+        }
       ],
-      "return_type" : {
-	"type" : "void"
+      "return_type": {
+        "type": "void"
       }
     },
     {
-      "name" : "SetParent",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "Transform",
-	  "name" : "parent"
-	},
-	{
-	  "type" : "bool",
-	  "name" : "worldPositionStays"
-	}
+      "name": "SetParent",
+      "type": "method",
+      "params": [
+        {
+          "type": "Transform",
+          "name": "parent"
+        },
+        {
+          "type": "bool",
+          "name": "worldPositionStays"
+        }
       ],
-      "return_type" : {
-	"type" : "void"
+      "return_type": {
+        "type": "void"
       }
     },
     {
-      "name" : "SetPositionAndRotation",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "Vector3",
-	  "name" : "position"
-	},
-	{
-	  "type" : "Quaternion",
-	  "name" : "rotation"
-	}
+      "name": "SetPositionAndRotation",
+      "type": "method",
+      "params": [
+        {
+          "type": "Vector3",
+          "name": "position"
+        },
+        {
+          "type": "Quaternion",
+          "name": "rotation"
+        }
       ],
-      "return_type" : {
-	"type" : "void"
+      "return_type": {
+        "type": "void"
       }
     },
     {
-      "name" : "SetSiblingIndex",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "int",
-	  "name" : "index"
-	}
+      "name": "SetSiblingIndex",
+      "type": "method",
+      "params": [
+        {
+          "type": "int",
+          "name": "index"
+        }
       ],
-      "return_type" : {
-	"type" : "void"
+      "return_type": {
+        "type": "void"
       }
     },
     {
-      "name" : "TransformDirection",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "Vector3",
-	  "name" : "direction"
-	}
+      "name": "TransformDirection",
+      "type": "method",
+      "params": [
+        {
+          "type": "Vector3",
+          "name": "direction"
+        }
       ],
-      "return_type" : {
-	"type" : "val",
-	"name" : "Vector3"
+      "return_type": {
+        "type": "val",
+        "name": "Vector3"
       }
     },
     {
-      "name" : "TransformDirection",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "float",
-	  "name" : "x"
-	},
-	{
-	  "type" : "float",
-	  "name" : "y"
-	},
-	{
-	  "type" : "float",
-	  "name" : "z"
-	}
+      "name": "TransformDirection",
+      "type": "method",
+      "params": [
+        {
+          "type": "float",
+          "name": "x"
+        },
+        {
+          "type": "float",
+          "name": "y"
+        },
+        {
+          "type": "float",
+          "name": "z"
+        }
       ],
-      "return_type" : {
-	"type" : "val",
-	"name" : "Vector3"
+      "return_type": {
+        "type": "val",
+        "name": "Vector3"
       }
     },
     {
-      "name" : "TransformPoint",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "Vector3",
-	  "name" : "position"
-	}
+      "name": "TransformPoint",
+      "type": "method",
+      "params": [
+        {
+          "type": "Vector3",
+          "name": "position"
+        }
       ],
-      "return_type" : {
-	"type" : "val",
-	"name" : "Vector3"
+      "return_type": {
+        "type": "val",
+        "name": "Vector3"
       }
     },
     {
-      "name" : "TransformPoint",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "float",
-	  "name" : "x"
-	},
-	{
-	  "type" : "float",
-	  "name" : "y"
-	},
-	{
-	  "type" : "float",
-	  "name" : "z"
-	}
+      "name": "TransformPoint",
+      "type": "method",
+      "params": [
+        {
+          "type": "float",
+          "name": "x"
+        },
+        {
+          "type": "float",
+          "name": "y"
+        },
+        {
+          "type": "float",
+          "name": "z"
+        }
       ],
-      "return_type" : {
-	"type" : "val",
-	"name" : "Vector3"
+      "return_type": {
+        "type": "val",
+        "name": "Vector3"
       }
     },
     {
-      "name" : "TransformVector",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "Vector3",
-	  "name" : "vector"
-	}
+      "name": "TransformVector",
+      "type": "method",
+      "params": [
+        {
+          "type": "Vector3",
+          "name": "vector"
+        }
       ],
-      "return_type" : {
-	"type" : "val",
-	"name" : "Vector3"
+      "return_type": {
+        "type": "val",
+        "name": "Vector3"
       }
     },
     {
-      "name" : "TransformVector",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "float",
-	  "name" : "x"
-	},
-	{
-	  "type" : "float",
-	  "name" : "y"
-	},
-	{
-	  "type" : "float",
-	  "name" : "z"
-	}
+      "name": "TransformVector",
+      "type": "method",
+      "params": [
+        {
+          "type": "float",
+          "name": "x"
+        },
+        {
+          "type": "float",
+          "name": "y"
+        },
+        {
+          "type": "float",
+          "name": "z"
+        }
       ],
-      "return_type" : {
-	"type" : "val",
-	"name" : "Vector3"
+      "return_type": {
+        "type": "val",
+        "name": "Vector3"
       }
     },
     {
-      "name" : "Translate",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "Vector3",
-	  "name" : "translation"
-	}
+      "name": "Translate",
+      "type": "method",
+      "params": [
+        {
+          "type": "Vector3",
+          "name": "translation"
+        }
       ],
-      "return_type" : {
-	"type" : "void"
+      "return_type": {
+        "type": "void"
       }
     },
     {
-      "name" : "Translate",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "Vector3",
-	  "name" : "translation"
-	},
-	{
-	  "type" : "Space",
-	  "name" : "relativeTo"
-	}
+      "name": "Translate",
+      "type": "method",
+      "params": [
+        {
+          "type": "Vector3",
+          "name": "translation"
+        },
+        {
+          "type": "Space",
+          "name": "relativeTo"
+        }
       ],
-      "return_type" : {
-	"type" : "void"
+      "return_type": {
+        "type": "void"
       }
     },
     {
-      "name" : "Translate",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "Vector3",
-	  "name" : "translation"
-	},
-	{
-	  "type" : "Transform",
-	  "name" : "relativeTo"
-	}
+      "name": "Translate",
+      "type": "method",
+      "params": [
+        {
+          "type": "Vector3",
+          "name": "translation"
+        },
+        {
+          "type": "Transform",
+          "name": "relativeTo"
+        }
       ],
-      "return_type" : {
-	"type" : "void"
+      "return_type": {
+        "type": "void"
       }
     },
     {
-      "name" : "Translate",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "float",
-	  "name" : "x"
-	},
-	{
-	  "type" : "float",
-	  "name" : "y"
-	},
-	{
-	  "type" : "float",
-	  "name" : "z"
-	},
-	{
-	  "type" : "Transform",
-	  "name" : "relativeTo"
-	}
+      "name": "Translate",
+      "type": "method",
+      "params": [
+        {
+          "type": "float",
+          "name": "x"
+        },
+        {
+          "type": "float",
+          "name": "y"
+        },
+        {
+          "type": "float",
+          "name": "z"
+        },
+        {
+          "type": "Transform",
+          "name": "relativeTo"
+        }
       ],
-      "return_type" : {
-	"type" : "void"
+      "return_type": {
+        "type": "void"
       }
     }
   ]

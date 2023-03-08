@@ -1,548 +1,548 @@
 {
-  "class" : "Component",
-  "entries":[
+  "class": "Component",
+  "entries": [
     {
-      "name" : "gameObject",
-      "type" : "field",
-      "return_type" : {
-	"type" : "obj",
-	"name" : "GameObject"
+      "name": "gameObject",
+      "type": "field",
+      "return_type": {
+        "type": "obj",
+        "name": "GameObject"
       },
-      "setter" : false
+      "setter": false
     },
     {
-      "name" : "tag",
-      "type" : "field",
-      "return_type" : {
-	"type" : "obj",
-	"name" : "string"
+      "name": "tag",
+      "type": "field",
+      "return_type": {
+        "type": "obj",
+        "name": "string"
       },
-      "setter" : true
+      "setter": true
     },
     {
-      "name" : "transform",
-      "type" : "field",
-      "return_type" : {
-	"type" : "obj",
-	"name" : "Transform"
+      "name": "transform",
+      "type": "field",
+      "return_type": {
+        "type": "obj",
+        "name": "Transform"
       },
-      "setter" : false
+      "setter": false
     },
     {
-      "name" : "BroadcastMessage",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "string",
-	  "name" : "methodName"
-	},
-	{
-	  "type" : "object",
-	  "name" : "parameter",
-	  "def" : "null"
-	},
-	{
-	  "type" : "SendMessageOptions",
-	  "name" : "options",
-	  "def" : "SendMessageOptions.RequireReceiver"
-	}
+      "name": "BroadcastMessage",
+      "type": "method",
+      "params": [
+        {
+          "type": "string",
+          "name": "methodName"
+        },
+        {
+          "type": "object",
+          "name": "parameter",
+          "def": "null"
+        },
+        {
+          "type": "SendMessageOptions",
+          "name": "options",
+          "def": "SendMessageOptions.RequireReceiver"
+        }
       ],
-      "return_type" : {
-	"type" : "void"
+      "return_type": {
+        "type": "void"
       }
     },
     {
-      "name" : "BroadcastMessage",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "string",
-	  "name" : "methodName"
-	},
-	{
-	  "type" : "SendMessageOptions",
-	  "name" : "options"
-	}
+      "name": "BroadcastMessage",
+      "type": "method",
+      "params": [
+        {
+          "type": "string",
+          "name": "methodName"
+        },
+        {
+          "type": "SendMessageOptions",
+          "name": "options"
+        }
       ],
-      "return_type" : {
-	"type" : "void"
+      "return_type": {
+        "type": "void"
       }
     },
     {
-      "name" : "CompareTag",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "string",
-	  "name" : "tag"
-	}
+      "name": "CompareTag",
+      "type": "method",
+      "params": [
+        {
+          "type": "string",
+          "name": "tag"
+        }
       ],
-      "return_type" : {
-	"type" : "val",
-	"name" : "bool",
-	"boolShortCircuit" : true
+      "return_type": {
+        "type": "val",
+        "name": "bool",
+        "boolShortCircuit": true
       }
     },
     {
-      "name" : "GetComponent<T>",
-      "type" : "method",
-      "return_type" : {
-	"type" : "obj",
-	"name" : "T"
+      "name": "GetComponent<T>",
+      "type": "method",
+      "return_type": {
+        "type": "obj",
+        "name": "T"
       }
     },
     {
-      "name" : "GetComponent",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "System.Type",
-	  "name" : "type"
-	}
+      "name": "GetComponent",
+      "type": "method",
+      "params": [
+        {
+          "type": "System.Type",
+          "name": "type"
+        }
       ],
-      "return_type" : {
-	"type" : "obj",
-	"name" : "Component"
+      "return_type": {
+        "type": "obj",
+        "name": "Component"
       }
     },
     {
-      "name" : "GetComponent",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "string",
-	  "name" : "type"
-	}
+      "name": "GetComponent",
+      "type": "method",
+      "params": [
+        {
+          "type": "string",
+          "name": "type"
+        }
       ],
-      "return_type" : {
-	"type" : "obj",
-	"name" : "Component"
+      "return_type": {
+        "type": "obj",
+        "name": "Component"
       }
     },
     {
-      "name" : "GetComponentInChildren<T>",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "bool",
-	  "name" : "includeInactive",
-	  "def" : "false"
-	}
+      "name": "GetComponentInChildren<T>",
+      "type": "method",
+      "params": [
+        {
+          "type": "bool",
+          "name": "includeInactive",
+          "def": "false"
+        }
       ],
-      "return_type" : {
-	"type" : "obj",
-	"name" : "T"
+      "return_type": {
+        "type": "obj",
+        "name": "T"
       }
     },
     {
-      "name" : "GetComponentInChildren",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "System.Type",
-	  "name" : "type"
-	}
+      "name": "GetComponentInChildren",
+      "type": "method",
+      "params": [
+        {
+          "type": "System.Type",
+          "name": "type"
+        }
       ],
-      "return_type" : {
-	"type" : "obj",
-	"name" : "Component"
+      "return_type": {
+        "type": "obj",
+        "name": "Component"
       }
     },
     {
-      "name" : "GetComponentInChildren",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "System.Type",
-	  "name" : "type"
-	},
-	{
-	  "type" : "bool",
-	  "name" : "includeInactive"
-	}
+      "name": "GetComponentInChildren",
+      "type": "method",
+      "params": [
+        {
+          "type": "System.Type",
+          "name": "type"
+        },
+        {
+          "type": "bool",
+          "name": "includeInactive"
+        }
       ],
-      "return_type" : {
-	"type" : "obj",
-	"name" : "Component"
+      "return_type": {
+        "type": "obj",
+        "name": "Component"
       }
     },
     {
-      "name" : "GetComponentInParent<T>",
-      "type" : "method",
-      "return_type" : {
-	"type" : "obj",
-	"name" : "T"
+      "name": "GetComponentInParent<T>",
+      "type": "method",
+      "return_type": {
+        "type": "obj",
+        "name": "T"
       }
     },
     {
-      "name" : "GetComponentInParent<T>",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "bool",
-	  "name" : "includeInactive",
-	  "def" : "false"
-	}
+      "name": "GetComponentInParent<T>",
+      "type": "method",
+      "params": [
+        {
+          "type": "bool",
+          "name": "includeInactive",
+          "def": "false"
+        }
       ],
-      "return_type" : {
-	"type" : "obj",
-	"name" : "T"
+      "return_type": {
+        "type": "obj",
+        "name": "T"
       }
     },
     {
-      "name" : "GetComponentInParent",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "System.Type",
-	  "name" : "type"
-	}
+      "name": "GetComponentInParent",
+      "type": "method",
+      "params": [
+        {
+          "type": "System.Type",
+          "name": "type"
+        }
       ],
-      "return_type" : {
-	"type" : "obj",
-	"name" : "Component"
+      "return_type": {
+        "type": "obj",
+        "name": "Component"
       }
     },
     {
-      "name" : "GetComponentInParent",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "System.Type",
-	  "name" : "type"
-	},
-	{
-	  "type" : "bool",
-	  "name" : "includeInactive"
-	}
+      "name": "GetComponentInParent",
+      "type": "method",
+      "params": [
+        {
+          "type": "System.Type",
+          "name": "type"
+        },
+        {
+          "type": "bool",
+          "name": "includeInactive"
+        }
       ],
-      "return_type" : {
-	"type" : "obj",
-	"name" : "Component"
+      "return_type": {
+        "type": "obj",
+        "name": "Component"
       }
     },
     {
-      "name" : "GetComponents<T>",
-      "type" : "method",
-      "return_type" : {
-	"type" : "obj",
-	"name" : "T[]"
+      "name": "GetComponents<T>",
+      "type": "method",
+      "return_type": {
+        "type": "obj",
+        "name": "T[]"
       }
     },
     {
-      "name" : "GetComponents<T>",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "List<T>",
-	  "name" : "results"
-	}
+      "name": "GetComponents<T>",
+      "type": "method",
+      "params": [
+        {
+          "type": "List<T>",
+          "name": "results"
+        }
       ],
-      "return_type" : {
-	"type" : "void"
+      "return_type": {
+        "type": "void"
       }
     },
     {
-      "name" : "GetComponents",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "System.Type",
-	  "name" : "type"
-	}
+      "name": "GetComponents",
+      "type": "method",
+      "params": [
+        {
+          "type": "System.Type",
+          "name": "type"
+        }
       ],
-      "return_type" : {
-	"type" : "obj",
-	"name" : "Component[]"
+      "return_type": {
+        "type": "obj",
+        "name": "Component[]"
       }
     },
     {
-      "name" : "GetComponents",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "System.Type",
-	  "name" : "type"
-	},
-	{
-	  "type" : "List<Component>",
-	  "name" : "results"
-	}
+      "name": "GetComponents",
+      "type": "method",
+      "params": [
+        {
+          "type": "System.Type",
+          "name": "type"
+        },
+        {
+          "type": "List<Component>",
+          "name": "results"
+        }
       ],
-      "return_type" : {
-	"type" : "void"
+      "return_type": {
+        "type": "void"
       }
     },
     {
-      "name" : "GetComponentsInChildren<T>",
-      "type" : "method",
-      "return_type" : {
-	"type" : "obj",
-	"name" : "T[]"
+      "name": "GetComponentsInChildren<T>",
+      "type": "method",
+      "return_type": {
+        "type": "obj",
+        "name": "T[]"
       }
     },
     {
-      "name" : "GetComponentsInChildren<T>",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "bool",
-	  "name" : "includeInactive"
-	}
+      "name": "GetComponentsInChildren<T>",
+      "type": "method",
+      "params": [
+        {
+          "type": "bool",
+          "name": "includeInactive"
+        }
       ],
-      "return_type" : {
-	"type" : "obj",
-	"name" : "T[]"
+      "return_type": {
+        "type": "obj",
+        "name": "T[]"
       }
     },
     {
-      "name" : "GetComponentsInChildren<T>",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "List<T>",
-	  "name" : "result"
-	}
+      "name": "GetComponentsInChildren<T>",
+      "type": "method",
+      "params": [
+        {
+          "type": "List<T>",
+          "name": "result"
+        }
       ],
-      "return_type" : {
-	"type" : "void"
+      "return_type": {
+        "type": "void"
       }
     },
     {
-      "name" : "GetComponentsInChildren<T>",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "bool",
-	  "name" : "includeInactive"
-	},
-	{
-	  "type" : "List<T>",
-	  "name" : "result"
-	}
+      "name": "GetComponentsInChildren<T>",
+      "type": "method",
+      "params": [
+        {
+          "type": "bool",
+          "name": "includeInactive"
+        },
+        {
+          "type": "List<T>",
+          "name": "result"
+        }
       ],
-      "return_type" : {
-	"type" : "void"
+      "return_type": {
+        "type": "void"
       }
     },
     {
-      "name" : "GetComponentsInChildren",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "System.Type",
-	  "name" : "type"
-	},
-	{
-	  "type" : "bool",
-	  "name" : "includeInactive"
-	}
+      "name": "GetComponentsInChildren",
+      "type": "method",
+      "params": [
+        {
+          "type": "System.Type",
+          "name": "type"
+        },
+        {
+          "type": "bool",
+          "name": "includeInactive"
+        }
       ],
-      "return_type" : {
-	"type" : "obj",
-	"name" : "Component[]"
+      "return_type": {
+        "type": "obj",
+        "name": "Component[]"
       }
     },
     {
-      "name" : "GetComponentsInParent<T>",
-      "type" : "method",
-      "return_type" : {
-	"type" : "obj",
-	"name" : "T[]"
+      "name": "GetComponentsInParent<T>",
+      "type": "method",
+      "return_type": {
+        "type": "obj",
+        "name": "T[]"
       }
     },
     {
-      "name" : "GetComponentsInParent<T>",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "bool",
-	  "name" : "includeInactive"
-	}
+      "name": "GetComponentsInParent<T>",
+      "type": "method",
+      "params": [
+        {
+          "type": "bool",
+          "name": "includeInactive"
+        }
       ],
-      "return_type" : {
-	"type" : "obj",
-	"name" : "T[]"
+      "return_type": {
+        "type": "obj",
+        "name": "T[]"
       }
     },
     {
-      "name" : "GetComponentsInParent<T>",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "bool",
-	  "name" : "includeInactive"
-	},
-	{
-	  "type" : "List<T>",
-	  "name" : "results"
-	}
+      "name": "GetComponentsInParent<T>",
+      "type": "method",
+      "params": [
+        {
+          "type": "bool",
+          "name": "includeInactive"
+        },
+        {
+          "type": "List<T>",
+          "name": "results"
+        }
       ],
-      "return_type" : {
-	"type" : "void"
+      "return_type": {
+        "type": "void"
       }
     },
     {
-      "name" : "GetComponentsInParent",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "System.Type",
-	  "name" : "type"
-	},
-	{
-	  "type" : "bool",
-	  "name" : "includeInactive",
-	  "def" : "false"
-	}
+      "name": "GetComponentsInParent",
+      "type": "method",
+      "params": [
+        {
+          "type": "System.Type",
+          "name": "type"
+        },
+        {
+          "type": "bool",
+          "name": "includeInactive",
+          "def": "false"
+        }
       ],
-      "return_type" : {
-	"type" : "obj",
-	"name" : "Component[]"
+      "return_type": {
+        "type": "obj",
+        "name": "Component[]"
       }
     },
     {
-      "name" : "SendMessage",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "string",
-	  "name" : "methodName"
-	}
+      "name": "SendMessage",
+      "type": "method",
+      "params": [
+        {
+          "type": "string",
+          "name": "methodName"
+        }
       ],
-      "return_type" : {
-	"type" : "void"
+      "return_type": {
+        "type": "void"
       }
     },
     {
-      "name" : "SendMessage",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "string",
-	  "name" : "methodName"
-	},
-	{
-	  "type" : "object",
-	  "name" : "value"
-	}
+      "name": "SendMessage",
+      "type": "method",
+      "params": [
+        {
+          "type": "string",
+          "name": "methodName"
+        },
+        {
+          "type": "object",
+          "name": "value"
+        }
       ],
-      "return_type" : {
-	"type" : "void"
+      "return_type": {
+        "type": "void"
       }
     },
     {
-      "name" : "SendMessage",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "string",
-	  "name" : "methodName"
-	},
-	{
-	  "type" : "object",
-	  "name" : "value"
-	},
-	{
-	  "type" : "SendMessageOptions",
-	  "name" : "options"
-	}
+      "name": "SendMessage",
+      "type": "method",
+      "params": [
+        {
+          "type": "string",
+          "name": "methodName"
+        },
+        {
+          "type": "object",
+          "name": "value"
+        },
+        {
+          "type": "SendMessageOptions",
+          "name": "options"
+        }
       ],
-      "return_type" : {
-	"type" : "void"
+      "return_type": {
+        "type": "void"
       }
     },
     {
-      "name" : "SendMessage",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "string",
-	  "name" : "methodName"
-	},
-	{
-	  "type" : "SendMessageOptions",
-	  "name" : "options"
-	}
+      "name": "SendMessage",
+      "type": "method",
+      "params": [
+        {
+          "type": "string",
+          "name": "methodName"
+        },
+        {
+          "type": "SendMessageOptions",
+          "name": "options"
+        }
       ],
-      "return_type" : {
-	"type" : "void"
+      "return_type": {
+        "type": "void"
       }
     },
     {
-      "name" : "SendMessageUpwards",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "string",
-	  "name" : "methodName"
-	},
-	{
-	  "type" : "SendMessageOptions",
-	  "name" : "options"
-	}
+      "name": "SendMessageUpwards",
+      "type": "method",
+      "params": [
+        {
+          "type": "string",
+          "name": "methodName"
+        },
+        {
+          "type": "SendMessageOptions",
+          "name": "options"
+        }
       ],
-      "return_type" : {
-	"type" : "void"
+      "return_type": {
+        "type": "void"
       }
     },
     {
-      "name" : "SendMessageUpwards",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "string",
-	  "name" : "methodName"
-	},
-	{
-	  "type" : "object",
-	  "name" : "value",
-	  "def" : "null"
-	},
-	{
-	  "type" : "SendMessageOptions",
-	  "name" : "options",
-	  "def" : "SendMessageOptions.RequireReceiver"
-	}
+      "name": "SendMessageUpwards",
+      "type": "method",
+      "params": [
+        {
+          "type": "string",
+          "name": "methodName"
+        },
+        {
+          "type": "object",
+          "name": "value",
+          "def": "null"
+        },
+        {
+          "type": "SendMessageOptions",
+          "name": "options",
+          "def": "SendMessageOptions.RequireReceiver"
+        }
       ],
-      "return_type" : {
-	"type" : "void"
+      "return_type": {
+        "type": "void"
       }
     },
     {
-      "name" : "TryGetComponent<T>",
-      "type" : "method",
-      "params" : [
-	{
-	  "mod" : "out",
-	  "type" : "T",
-	  "name" : "component"
-	}
+      "name": "TryGetComponent<T>",
+      "type": "method",
+      "params": [
+        {
+          "mod": "out",
+          "type": "T",
+          "name": "component"
+        }
       ],
-      "return_type" : {
-	"type" : "val",
-	"name" : "bool",
-	"boolShortCircuit" : true
+      "return_type": {
+        "type": "val",
+        "name": "bool",
+        "boolShortCircuit": true
       }
     },
     {
-      "name" : "TryGetComponent",
-      "type" : "method",
-      "params" : [
-	{
-	  "type" : "System.Type",
-	  "name" : "type"
-	},
-	{
-	  "mod" : "out",
-	  "type" : "Component",
-	  "name" : "component"
-	}
+      "name": "TryGetComponent",
+      "type": "method",
+      "params": [
+        {
+          "type": "System.Type",
+          "name": "type"
+        },
+        {
+          "mod": "out",
+          "type": "Component",
+          "name": "component"
+        }
       ],
-      "return_type" : {
-	"type" : "val",
-	"name" : "bool",
-	"boolShortCircuit" : true
+      "return_type": {
+        "type": "val",
+        "name": "bool",
+        "boolShortCircuit": true
       }
     }
   ]
