@@ -22,7 +22,7 @@ if (target != null)
 
 With extension:
 ```csharp
-var collider = this.target?.OrGetComponent<Collider>();
+var collider = target?.OrGetComponent<Collider>();
 ```
 
 Installation
